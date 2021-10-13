@@ -1,0 +1,638 @@
+{
+	"info": {
+		"_postman_id": "e4eb68fa-dc7e-410c-bf16-7be8baaf3404",
+		"name": "Teknasyon API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "kullanıcı kayıt",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "kullanici@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "987",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "kullanici",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/register",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kullanıcı girişi",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "60dd2e83cb23750666eceab34f5058a6",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "shn_betul_9506@hotmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "1234",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/login",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kullanıcı silme",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "token",
+						"value": "df4a22be124e141a41159ffb5cf8002e",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "betül",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/users/5",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"users",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "istenilen kullanıcıyı gösterme",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "d3019c8fee331fca4b514cd52b83f3a1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost/users/30",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"users",
+						"30"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kullanıcı listesi",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "d3019c8fee331fca4b514cd52b83f3a1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost/users",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kategori oluşturma",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "d3019c8fee331fca4b514cd52b83f3a1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "dünya gündemi",
+							"type": "text"
+						},
+						{
+							"key": "news_id",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/categories",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kategori güncelleme",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "d3019c8fee331fca4b514cd52b83f3a1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "gündem",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/categories/8",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"categories",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kategorileri görme",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "d3019c8fee331fca4b514cd52b83f3a1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost/categories",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "haber ekleme",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "d3019c8fee331fca4b514cd52b83f3a1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Pentagon'dan yapay zeka deneyi: Hamleleri önceden tahmin edecek",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Pentagon, rakiplerin hamlelerini önceden tahmin edebilmek için son teknoloji bulut ağlarını ve yapay zeka sistemlerini kullanmayı hedefliyor.",
+							"type": "text"
+						},
+						{
+							"key": "category_id",
+							"value": " 1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/news",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"news"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kullanıcı güncelleme",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "d3019c8fee331fca4b514cd52b83f3a1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "kullanıcı",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "bilmiyorum",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/users/28",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"users",
+						"28"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kategorideki haberleri görme",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "d3019c8fee331fca4b514cd52b83f3a1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost/categories/8/news",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"categories",
+						"8",
+						"news"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kategori silme",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "token",
+						"value": "d3019c8fee331fca4b514cd52b83f3a1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost/categories/7",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"categories",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "anonim yorum yapma",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "2014fa3511c10b1dfbf4564ed3c02782",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "content",
+							"value": "bu nasıl bir başlık",
+							"type": "text"
+						},
+						{
+							"key": "news_id",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/comments",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kullanıcı yorum yapma",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "d3019c8fee331fca4b514cd52b83f3a1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_name",
+							"value": "betul",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "30",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "çok aydınlatıcı",
+							"type": "text"
+						},
+						{
+							"key": "news_id",
+							"value": "8",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/comments",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "yorum silme",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "token",
+						"value": "d3019c8fee331fca4b514cd52b83f3a1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost/comments/5",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"comments",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "haber silme",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "token",
+						"value": "d3019c8fee331fca4b514cd52b83f3a1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost/news/5",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"news",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "istenilen haberin görüntülenmesi",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "d3019c8fee331fca4b514cd52b83f3a1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost/news/10",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"news",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "habere yapılan yorumun görünmesi",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "d3019c8fee331fca4b514cd52b83f3a1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost/news/4/comments",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"news",
+						"4",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "database deki log kayıtlarını görme",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "d3019c8fee331fca4b514cd52b83f3a1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "localhost/logs",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"logs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "silme isteği",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "d3019c8fee331fca4b514cd52b83f3a1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost/users/requestDelete",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"users",
+						"requestDelete"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

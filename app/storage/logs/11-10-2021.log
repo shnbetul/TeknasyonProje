@@ -1,0 +1,185 @@
+7 11/10/2021 12:20:59 Log dosyası oluşturuldu
+7 11/10/2021 12:20:59 router log
+7 11/10/2021 12:20:59 Log tamamlandı.
+7 11/10/2021 12:20:59 router log
+7 11/10/2021 12:20:59 Log tamamlandı.
+7 11/10/2021 12:28:23 ["post",["\/login","AuthController@login"]]
+7 11/10/2021 12:28:23 Log tamamlandı.
+7 11/10/2021 12:29:41 ["post",["\/login","AuthController@login"]]
+7 11/10/2021 12:29:41 Log tamamlandı.
+7 11/10/2021 12:31:39 ["get",["\/users",{"Auth":"check","Permission":"check.users_show"},"UserController@index"]]
+7 11/10/2021 12:31:39 Log tamamlandı.
+7 11/10/2021 12:32:25 ["get",["\/users",{"Auth":"check","Permission":"check.users_show"},"UserController@index"]]
+7 11/10/2021 12:32:25 Log tamamlandı.
+7 11/10/2021 12:35:01 ["get",["\/categories",{"Auth":"check","Permission":"check.category_show"},"CategoryController@index"]]
+7 11/10/2021 12:35:01 Log tamamlandı.
+7 11/10/2021 12:35:16 ["get",["\/categories",{"Auth":"check","Permission":"check.category_show"},"CategoryController@index"]]
+7 11/10/2021 12:35:16 Log tamamlandı.
+7 11/10/2021 12:35:16 ["post",["\/categories\/{id}",{"Auth":"check","Permission":"check.category_update"},"CategoryController@update"]]
+7 11/10/2021 12:35:16 Log tamamlandı.
+7 11/10/2021 12:35:16 ["post",["\/categories",{"Auth":"check","Permission":"check.category_create"},"CategoryController@create"]]
+7 11/10/2021 12:35:16 Log tamamlandı.
+7 11/10/2021 12:39:05 ["get",["\/categories",{"Auth":"check","Permission":"check.category_show"},"CategoryController@index"]]
+7 11/10/2021 12:39:05 Log tamamlandı.
+7 11/10/2021 12:39:05 ["post",["\/categories",{"Auth":"check","Permission":"check.category_create"},"CategoryController@create"]]
+7 11/10/2021 12:39:05 Log tamamlandı.
+7 11/10/2021 12:39:13 ["get",["\/users",{"Auth":"check","Permission":"check.users_show"},"UserController@index"]]
+7 11/10/2021 12:39:13 Log tamamlandı.
+7 11/10/2021 12:39:13 ["post",["\/users\/{id}",{"Auth":"check","Permission":"check.user_update"},"UserController@update"]]
+7 11/10/2021 12:39:13 Log tamamlandı.
+7 11/10/2021 12:39:13 ["delete",["\/users\/{id}",{"Auth":"check","Permission":"check.user_delete"},"UserController@delete"]]
+7 11/10/2021 12:39:13 Log tamamlandı.
+7 11/10/2021 12:39:13 ["get",["\/users\/{id}",{"Auth":"check","Permission":"check.users_show"},"UserController@show"]]
+7 11/10/2021 12:39:13 Log tamamlandı.
+7 11/10/2021 12:39:19 ["get",["\/users",{"Auth":"check","Permission":"check.users_show"},"UserController@index"]]
+7 11/10/2021 12:39:19 Log tamamlandı.
+7 11/10/2021 12:50:26 ["get",["\/categories",{"Auth":"check","Permission":"check.category_show"},"CategoryController@index"]]
+7 11/10/2021 12:50:26 Log tamamlandı.
+7 11/10/2021 12:50:26 ["post",["\/categories",{"Auth":"check","Permission":"check.category_create"},"CategoryController@create"]]
+7 11/10/2021 12:50:26 Log tamamlandı.
+7 11/10/2021 12:52:15 ["get",["\/categories",{"Auth":"check","Permission":"check.category_show"},"CategoryController@index"]]
+7 11/10/2021 12:52:15 Log tamamlandı.
+7 11/10/2021 12:52:15 ["post",["\/categories",{"Auth":"check","Permission":"check.category_create"},"CategoryController@create"]]
+7 11/10/2021 12:52:15 Log tamamlandı.
+7 11/10/2021 12:52:43 ["get",["\/categories",{"Auth":"check","Permission":"check.category_show"},"CategoryController@index"]]
+7 11/10/2021 12:52:43 Log tamamlandı.
+7 11/10/2021 12:52:44 ["post",["\/categories",{"Auth":"check","Permission":"check.category_create"},"CategoryController@create"]]
+7 11/10/2021 12:52:44 Log tamamlandı.
+7 11/10/2021 12:54:24 ["get",["\/categories",{"Auth":"check","Permission":"check.category_show"},"CategoryController@index"]]
+7 11/10/2021 12:54:24 Log tamamlandı.
+7 11/10/2021 12:54:24 ["post",["\/categories",{"Auth":"check","Permission":"check.category_create"},"CategoryController@create"]]
+7 11/10/2021 12:54:24 Log tamamlandı.
+7 11/10/2021 12:57:02 ["get",["\/categories",{"Auth":"check","Permission":"check.category_show"},"CategoryController@index"]]
+7 11/10/2021 12:57:02 Log tamamlandı.
+7 11/10/2021 12:57:02 ["post",["\/categories\/{id}",{"Auth":"check","Permission":"check.category_update"},"CategoryController@update"]]
+7 11/10/2021 12:57:02 Log tamamlandı.
+7 11/10/2021 12:58:11 ["get",["\/categories",{"Auth":"check","Permission":"check.category_show"},"CategoryController@index"]]
+7 11/10/2021 12:58:11 Log tamamlandı.
+7 11/10/2021 12:58:33 ["get",["\/categories",{"Auth":"check","Permission":"check.category_show"},"CategoryController@index"]]
+7 11/10/2021 12:58:33 Log tamamlandı.
+7 11/10/2021 12:58:41 ["get",["\/categories",{"Auth":"check","Permission":"check.category_show"},"CategoryController@index"]]
+7 11/10/2021 12:58:41 Log tamamlandı.
+7 11/10/2021 13:01:04 ["post",["\/news",{"Auth":"check","Permission":"check.news_create"},"NewsController@create"]]
+7 11/10/2021 13:01:04 Log tamamlandı.
+7 11/10/2021 13:02:20 ["post",["\/news",{"Auth":"check","Permission":"check.news_create"},"NewsController@create"]]
+7 11/10/2021 13:02:20 Log tamamlandı.
+7 11/10/2021 13:03:56 ["post",["\/news",{"Auth":"check","Permission":"check.news_create"},"NewsController@create"]]
+7 11/10/2021 13:03:56 Log tamamlandı.
+7 11/10/2021 13:05:48 ["post",["\/news",{"Auth":"check","Permission":"check.news_create"},"NewsController@create"]]
+7 11/10/2021 13:05:48 Log tamamlandı.
+7 11/10/2021 13:09:32 ["post",["\/news",{"Auth":"check","Permission":"check.news_create"},"NewsController@create"]]
+7 11/10/2021 13:09:32 Log tamamlandı.
+7 11/10/2021 13:11:57 ["post",["\/news",{"Auth":"check","Permission":"check.news_create"},"NewsController@create"]]
+7 11/10/2021 13:11:57 Log tamamlandı.
+7 11/10/2021 13:14:51 ["post",["\/news",{"Auth":"check","Permission":"check.news_create"},"NewsController@create"]]
+7 11/10/2021 13:14:51 Log tamamlandı.
+7 11/10/2021 13:17:54 ["post",["\/news",{"Auth":"check","Permission":"check.news_create"},"NewsController@create"]]
+7 11/10/2021 13:17:54 Log tamamlandı.
+7 11/10/2021 13:19:14 ["post",["\/news",{"Auth":"check","Permission":"check.news_create"},"NewsController@create"]]
+7 11/10/2021 13:19:14 Log tamamlandı.
+7 11/10/2021 13:21:03 ["post",["\/news",{"Auth":"check","Permission":"check.news_create"},"NewsController@create"]]
+7 11/10/2021 13:21:03 Log tamamlandı.
+7 11/10/2021 13:23:07 ["post",["\/news",{"Auth":"check","Permission":"check.news_create"},"NewsController@create"]]
+7 11/10/2021 13:23:07 Log tamamlandı.
+7 11/10/2021 13:26:27 ["get",["\/categories",{"Auth":"check","Permission":"check.category_show"},"CategoryController@index"]]
+7 11/10/2021 13:26:27 Log tamamlandı.
+7 11/10/2021 13:26:27 ["post",["\/categories",{"Auth":"check","Permission":"check.category_create"},"CategoryController@create"]]
+7 11/10/2021 13:26:27 Log tamamlandı.
+7 11/10/2021 13:26:52 ["get",["\/categories",{"Auth":"check","Permission":"check.category_show"},"CategoryController@index"]]
+7 11/10/2021 13:26:52 Log tamamlandı.
+7 11/10/2021 13:26:52 ["post",["\/categories",{"Auth":"check","Permission":"check.category_create"},"CategoryController@create"]]
+7 11/10/2021 13:26:52 Log tamamlandı.
+7 11/10/2021 13:27:10 ["get",["\/categories",{"Auth":"check","Permission":"check.category_show"},"CategoryController@index"]]
+7 11/10/2021 13:27:10 Log tamamlandı.
+7 11/10/2021 13:27:10 ["post",["\/categories",{"Auth":"check","Permission":"check.category_create"},"CategoryController@create"]]
+7 11/10/2021 13:27:10 Log tamamlandı.
+7 11/10/2021 13:35:15 ["get",["\/users",{"Auth":"check","Permission":"check.users_show"},"UserController@index"]]
+7 11/10/2021 13:35:15 Log tamamlandı.
+7 11/10/2021 13:35:15 ["post",["\/users\/{id}",{"Auth":"check","Permission":"check.user_update"},"UserController@update"]]
+7 11/10/2021 13:35:15 Log tamamlandı.
+7 11/10/2021 13:37:04 ["get",["\/categories",{"Auth":"check","Permission":"check.category_show"},"CategoryController@index"]]
+7 11/10/2021 13:37:04 Log tamamlandı.
+7 11/10/2021 13:37:24 ["get",["\/categories",{"Auth":"check","Permission":"check.category_show"},"CategoryController@index"]]
+7 11/10/2021 13:37:24 Log tamamlandı.
+7 11/10/2021 13:37:25 ["post",["\/categories\/{id}",{"Auth":"check","Permission":"check.category_update"},"CategoryController@update"]]
+7 11/10/2021 13:37:25 Log tamamlandı.
+7 11/10/2021 13:37:25 ["post",["\/categories",{"Auth":"check","Permission":"check.category_create"},"CategoryController@create"]]
+7 11/10/2021 13:37:25 Log tamamlandı.
+7 11/10/2021 13:37:25 ["delete",["\/categories\/{id}",{"Auth":"check","Permission":"check.category_delete"},"CategoryController@delete"]]
+7 11/10/2021 13:37:25 Log tamamlandı.
+7 11/10/2021 13:37:25 ["get",["\/categories\/{id}\/news",{"Auth":"check","Permission":"check.category_show"},"CategoryController@news"]]
+7 11/10/2021 13:37:25 Log tamamlandı.
+7 11/10/2021 13:39:15 ["get",["\/categories",{"Auth":"check","Permission":"check.category_show"},"CategoryController@index"]]
+7 11/10/2021 13:39:15 Log tamamlandı.
+7 11/10/2021 13:39:15 ["post",["\/categories\/{id}",{"Auth":"check","Permission":"check.category_update"},"CategoryController@update"]]
+7 11/10/2021 13:39:15 Log tamamlandı.
+7 11/10/2021 13:39:15 ["post",["\/categories",{"Auth":"check","Permission":"check.category_create"},"CategoryController@create"]]
+7 11/10/2021 13:39:15 Log tamamlandı.
+7 11/10/2021 13:39:15 ["delete",["\/categories\/{id}",{"Auth":"check","Permission":"check.category_delete"},"CategoryController@delete"]]
+7 11/10/2021 13:39:15 Log tamamlandı.
+7 11/10/2021 13:41:04 ["post",["\/comments","CommentController@create"]]
+7 11/10/2021 13:41:04 Log tamamlandı.
+7 11/10/2021 13:41:46 ["post",["\/comments","CommentController@create"]]
+7 11/10/2021 13:41:46 Log tamamlandı.
+7 11/10/2021 13:43:37 ["post",["\/comments","CommentController@create"]]
+7 11/10/2021 13:43:37 Log tamamlandı.
+7 11/10/2021 13:43:56 ["post",["\/comments","CommentController@create"]]
+7 11/10/2021 13:43:56 Log tamamlandı.
+7 11/10/2021 13:44:13 ["post",["\/comments","CommentController@create"]]
+7 11/10/2021 13:44:13 Log tamamlandı.
+7 11/10/2021 13:44:27 ["post",["\/comments","CommentController@create"]]
+7 11/10/2021 13:44:27 Log tamamlandı.
+7 11/10/2021 13:44:45 ["post",["\/comments","CommentController@create"]]
+7 11/10/2021 13:44:45 Log tamamlandı.
+7 11/10/2021 13:57:02 ["post",["\/comments","CommentController@create"]]
+7 11/10/2021 13:57:02 Log tamamlandı.
+7 11/10/2021 13:57:28 ["post",["\/comments","CommentController@create"]]
+7 11/10/2021 13:57:28 Log tamamlandı.
+7 11/10/2021 14:00:47 ["post",["\/comments","CommentController@create"]]
+7 11/10/2021 14:00:47 Log tamamlandı.
+7 11/10/2021 14:01:37 ["post",["\/comments","CommentController@create"]]
+7 11/10/2021 14:01:37 Log tamamlandı.
+7 11/10/2021 14:03:09 ["post",["\/comments","CommentController@create"]]
+7 11/10/2021 14:03:09 Log tamamlandı.
+7 11/10/2021 14:04:35 ["post",["\/comments","CommentController@create"]]
+7 11/10/2021 14:04:35 Log tamamlandı.
+7 11/10/2021 14:04:35 ["delete",["\/comments\/{id}",{"Auth":"check","Permission":"check.comment_delete"},"CommentController@delete"]]
+7 11/10/2021 14:04:35 Log tamamlandı.
+7 11/10/2021 14:05:01 ["post",["\/comments","CommentController@create"]]
+7 11/10/2021 14:05:01 Log tamamlandı.
+7 11/10/2021 14:05:01 ["delete",["\/comments\/{id}",{"Auth":"check","Permission":"check.comment_delete"},"CommentController@delete"]]
+7 11/10/2021 14:05:01 Log tamamlandı.
+7 11/10/2021 14:06:39 ["post",["\/news\/{id}",{"Auth":"check","Permission":"check.news_update"},"NewsController@update"]]
+7 11/10/2021 14:06:39 Log tamamlandı.
+7 11/10/2021 14:06:39 ["post",["\/news",{"Auth":"check","Permission":"check.news_create"},"NewsController@create"]]
+7 11/10/2021 14:06:39 Log tamamlandı.
+7 11/10/2021 14:06:39 ["get",["\/news\/{id}",{"Auth":"check","Permission":"check.news_show"},"NewsController@show"]]
+7 11/10/2021 14:06:39 Log tamamlandı.
+7 11/10/2021 14:06:39 ["delete",["\/news\/{id}",{"Auth":"check","Permission":"check.news_delete"},"NewsController@delete"]]
+7 11/10/2021 14:06:39 Log tamamlandı.
+7 11/10/2021 14:09:10 ["post",["\/news\/{id}",{"Auth":"check","Permission":"check.news_update"},"NewsController@update"]]
+7 11/10/2021 14:09:10 Log tamamlandı.
+7 11/10/2021 14:09:10 ["post",["\/news",{"Auth":"check","Permission":"check.news_create"},"NewsController@create"]]
+7 11/10/2021 14:09:10 Log tamamlandı.
+7 11/10/2021 14:09:11 ["get",["\/news\/{id}",{"Auth":"check","Permission":"check.news_show"},"NewsController@show"]]
+7 11/10/2021 14:09:11 Log tamamlandı.
+7 11/10/2021 14:09:28 ["post",["\/news\/{id}",{"Auth":"check","Permission":"check.news_update"},"NewsController@update"]]
+7 11/10/2021 14:09:28 Log tamamlandı.
+7 11/10/2021 14:09:28 ["post",["\/news",{"Auth":"check","Permission":"check.news_create"},"NewsController@create"]]
+7 11/10/2021 14:09:28 Log tamamlandı.
+7 11/10/2021 14:09:28 ["get",["\/news\/{id}",{"Auth":"check","Permission":"check.news_show"},"NewsController@show"]]
+7 11/10/2021 14:09:28 Log tamamlandı.
+7 11/10/2021 14:10:59 ["post",["\/news\/{id}",{"Auth":"check","Permission":"check.news_update"},"NewsController@update"]]
+7 11/10/2021 14:10:59 Log tamamlandı.
+7 11/10/2021 14:11:16 ["post",["\/news\/{id}",{"Auth":"check","Permission":"check.news_update"},"NewsController@update"]]
+7 11/10/2021 14:11:16 Log tamamlandı.
+7 11/10/2021 14:11:16 ["get",["\/news\/{id}\/comments",{"Auth":"check","Permission":"check.news_comment"},"NewsController@comments"]]
+7 11/10/2021 14:11:16 Log tamamlandı.
+7 11/10/2021 14:11:34 ["post",["\/news\/{id}",{"Auth":"check","Permission":"check.news_update"},"NewsController@update"]]
+7 11/10/2021 14:11:34 Log tamamlandı.
+7 11/10/2021 14:11:34 ["get",["\/news\/{id}\/comments",{"Auth":"check","Permission":"check.news_comment"},"NewsController@comments"]]
+7 11/10/2021 14:11:34 Log tamamlandı.
+7 11/10/2021 14:11:47 ["post",["\/news\/{id}",{"Auth":"check","Permission":"check.news_update"},"NewsController@update"]]
+7 11/10/2021 14:11:47 Log tamamlandı.
+7 11/10/2021 14:11:47 ["get",["\/news\/{id}\/comments",{"Auth":"check","Permission":"check.news_comment"},"NewsController@comments"]]
+7 11/10/2021 14:11:47 Log tamamlandı.
